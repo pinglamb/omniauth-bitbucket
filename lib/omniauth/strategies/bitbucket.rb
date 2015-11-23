@@ -7,9 +7,9 @@ module OmniAuth
       # initializing your consumer from the OAuth gem.
       option :client_options, {
         :site => 'https://bitbucket.org',
-        :request_token_path => '/api/1.0/oauth/request_token',
-        :authorize_path     => '/api/1.0/oauth/authenticate',
-        :access_token_path  => '/api/1.0/oauth/access_token'
+        :request_token_path => '/site/oauth2/request_token',
+        :authorize_path     => '/site/oauth2/authorize',
+        :access_token_path  => '/site/oauth2/access_token'
       }
 
       # These are called after authentication has succeeded. If
